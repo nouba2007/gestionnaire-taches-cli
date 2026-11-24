@@ -1,0 +1,17 @@
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+
+# Environnements virtuels
+venv/
+.venv/
+
+# Fichiers temporaires des éditeurs
+*.swp
+*.swo
+
+# Données générées
+data/data.json
+
+# Fichiers système
+.DS_Store
