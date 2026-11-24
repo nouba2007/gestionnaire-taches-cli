@@ -1,9 +1,11 @@
-from dataclasse imprt dataclass
+from dataclasses import dataclass
+
+
 @dataclass
-class task:
+class Task:
     id: int
     title: str
-    description : str
-    priority : str
-    due_date :str
-    statut : str = "A farie"
+    description: str
+    priority: str
+    due_date: str
+    statut: str = "À faire"
